@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your existing CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+<main>
+    <h1 class="gallery-title">  <i class="fas fa-arrow-left" id="back-arrow"></i>
+        Image Gallery</h1>
+    <div class="gallery-container">
+        <img src="assets/images/testimonial4.jpeg" alt="Loading..." class="gallery-item">
+        <img src="assets/images/maa adwoa.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/maa adwoa2.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/maame1.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/gallery9.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/testimonial1.jpg" alt="Loading..." class="gallery-item">
+        <img src="assets/images/gallery8.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/gallery7.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/gallery1.png" alt="Loading..." class="gallery-item">
+        <img src="assets/images/testimony3.jpg" alt="Loading..." class="gallery-item">
+        <img src="assets/images/gallery10.png" alt="Loading..." class="gallery-item">
+        <!-- Add more images as needed -->
+    </div>
+</main>
+
+<footer>
+   <strong><p>&copy; 2024 Phinaberry clothing. All rights reserved.</p></strong>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('back-arrow').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'index.html';
+      });
+    });
+  </script>
+
+</body>
+</html>
